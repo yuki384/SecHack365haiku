@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>俳句・・？</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+    function haiku(){
+        var go1 = ['おもしろい','ちょっとアレ','かわいいな','きもちいい','おいしいな','たのしいな','ラーメンと','俺様と','はいプロだ'];
+        var nana = ['豆腐メンタル','ごりらそっくり','ジョブズをこえる','二郎系だよ','なっとうそっくり','ごりらといっしょ','起業志望の','ブラック企業','ジョブズそっくり','マンダラートと','SecHackな','エディタはVimだ','ジョブズの隣で'];
+        var go2 = ['Linux','小学生','Discord','高専生','C#','女子高生','Windows','セキュリティ','リア充は'];
+        var kakuyatsu;
+        for(i=1; i<=10; i++){
+        kakuyatsu = go1[Math.round(Math.random() * 8)]+" "+nana[Math.round(Math.random() * 12)]+" "+go2[Math.round(Math.random() * 8)]+"<br>";
+        document.write(kakuyatsu);
+      }
+    }
+    haiku();
+    </script>
+    <h2>再読み込みでもう一回</h2>
+  </body>
+</html>
